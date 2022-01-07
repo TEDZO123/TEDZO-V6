@@ -14,7 +14,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
 *spirit bot group* : https://chat.whatsapp.com/FLqVrc4RdakIjXqcNYz7vU
 
-*Githublink (Setup)* :    https://github.com/SPlRlT-YT/Spirit-ser
+*Githublink (Setup)* :  https://github.com/SPlRlT-YT/Spirit-ser
 
 *Audio commads* :   https://github.com/SPlRlT-YT/Spirit-ser/tree/master/uploads
 
@@ -22,7 +22,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
 *My channel* : https://youtube.com/channel/UCBv1Z1zkOmdGeWU2QRdYBnA 
 
-*For More Updates Subscribe The Channel ☝*
+*For More Updates Subscribe The Channel☝*
 `}) 
 
 }));
