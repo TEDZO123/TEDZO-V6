@@ -59,7 +59,7 @@ By establishing the spirit-bot, you are deemed to have accepted these responsibi
     
   [![spirit-bot](https://github.com/spirit-bot.png?size=100)](https://github.com/SPlRlT-YT) | [![SPlRlT-YT](https://github.com/SPlRlT-YT.png?size=100)](https://github.com/SPlRlT-YT)  
 ----|----
-[Shrath](https://github.com/spirit-bot) | [Abhiram Sachu](https://github.com/SPlRlT-YT) 
+[spirit ser](https://github.com/spirit-bot) | [spirit ser](https://github.com/SPlRlT-YT) 
  BOT MODIFIED | BOT PLUGIN BUG FIX
   </div>
 
