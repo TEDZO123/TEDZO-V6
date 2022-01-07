@@ -1,9 +1,9 @@
 {
-    "name": "RAJU-BHAI",
-    "description": "RAJU-BHAI - Whatsapp Bot",
-    "logo": "https://telegra.ph/file/5c4082bd35a3866b47978.jpg",
+    "name": "spirit-bot",
+    "description": "spirit-bot - Whatsapp Bot",
+    "logo": "https://i.imgur.com/aAGjt7z.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/DEVIL-SARATH/RAJU-BHAI",
+    "repository": "https://github.com/SPlRlT-YT/spirit-bot",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
