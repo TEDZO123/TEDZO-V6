@@ -1,6 +1,6 @@
-![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=1500)
+![spirit bot](https://i.imgur.com/aAGjt7z.jpg?size=1500)
 
-## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+Raju+Bhai+WA+Bot+Repo;Created+by+SARATH+ACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![spirit-bot](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+Raju+Bhai+WA+Bot+Repo;Created+by+SARATH+ACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
 
 ## Setup
@@ -10,7 +10,7 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/DEVIL-SARATH/RAJU-BHAI.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/spirit-bot/RAJU-BHAI.git)
      </div>
 <br>
 <br >
@@ -26,8 +26,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/KINGS-AS/OXYMORON
-$ cd OXYMORON
+$ git clone https://github.com/SPlRlT-YT/spirit-bot
+$ cd spirit-bot
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -36,8 +36,8 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/KINGS-AS/OXYMORON
-$ cd OXYMORON
+$ git clone https://github.com/SPlRlT-YT/spirit-bot
+$ cd spirit-bot
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -50,16 +50,16 @@ $ node bot.js
 ```
 Due to Whatsapp bot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, OXYMORON executives do not accept responsibility.
-By establishing the OXYMORON, you are deemed to have accepted these responsibilities.
+Absolutely, spirit-bot executives do not accept responsibility.
+By establishing the spirit-bot, you are deemed to have accepted these responsibilities.
 ```
 
 ## Developers
   <div align="center">
     
-  [![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS)  
+  [![spirit-bot](https://github.com/spirit-bot.png?size=100)](https://github.com/SPlRlT-YT) | [![SPlRlT-YT](https://github.com/SPlRlT-YT.png?size=100)](https://github.com/SPlRlT-YT)  
 ----|----
-[Shrath](https://github.com/DEVIL-SARATH) | [Abhiram Sachu](https://github.com/KINGS-AS) 
+[Shrath](https://github.com/spirit-bot) | [Abhiram Sachu](https://github.com/SPlRlT-YT) 
  BOT MODIFIED | BOT PLUGIN BUG FIX
   </div>
 
