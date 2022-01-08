@@ -1,5 +1,5 @@
 /* Copyright (C) 2021 KINGS AS
-re-edited by DEVIL-SARATH
+re-edited by SPlRlT-YT
 */
 
 const { Sequelize } = require('sequelize');
