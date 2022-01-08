@@ -7,7 +7,7 @@ const Lang = Language.getString('wallpaper');
 
 Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
-    var skl = await axios.get("https://i.imgur.com/aAGjt7z.jpg", { responseType: 'arraybuffer' })
+    var skl = await axios.get("https://i.imgur.com/aO8uCtQ.jpg", { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*spirit  bot created by Spirit*
 *Creator number : wa.me/18052196558?text=Hi%20spirit%20.%20*
