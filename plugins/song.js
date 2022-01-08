@@ -8,11 +8,11 @@ Asena.addCommand({pattern: 'song', fromMe: false,dontAddCommandList: true}, (asy
     var r_text = new Array ();    
 r_text[0] = "\nEda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda\n";
 r_text[1] = "\🥵🥵🥵njan pova bye";
-r_text[2] = "OXYMORON says i love you 😘";
+r_text[2] = "spirir bot says i love you 😘";
 r_text[3] = "njan ara ni araara🤒";
 r_text[4] = "hi, how are you";
 r_text[5] = "ennikk korch rest theroo...🥵🥵";
-r_text[6] = "OXYMORON - eva - simsim \ningane ethra ethra paerugal aan alle enikk..😂🤣";
+r_text[6] = "spirit bot- eva - simsim \ningane ethra ethra paerugal aan alle enikk..😂🤣";
 r_text[7] = "njan vannuo";
 r_text[8] = "\n enne vilicho...?🧐 \n";
 r_text[9] = "chunke ♥️";
