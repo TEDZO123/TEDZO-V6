@@ -146,8 +146,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": " ```I Am Alive !!!```
-```Type``` *.help* ```for commands```"
+            "value": " enik jeevan onde\n\n♥"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
