@@ -85,7 +85,8 @@ async function whatsAsena () {
         conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
     } else {
         conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
-   
+    }
+
     conn.on ('credentials-updated', async () => {
         console.log(
             chalk.blueBright.italic('✅ Login information updated!')
@@ -95,22 +96,24 @@ async function whatsAsena () {
         if (StrSes_Db.length < 1) {
             await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
-            a
+            await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
+        }
+    })    
 
     conn.on('connecting', async () => {
-       Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     });
     
 
-    
+    conn.on('open', async () => {
         console.log(
             chalk.green.bold('✅ Login successful!')
         );
 
         console.log(
-            chalk.blueBrigrnal plugins...')
+            chalk.blueBright.italic('⬇️ Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -122,7 +125,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     fs.writeFileSync('./plugins/' + plugin.dataValues.name + '.js', response.body);
                     require('./plugins/' + plugin.dataValues.name + '.js');
                 }     
-    
+            }
         });
 
         console.log(
@@ -130,18 +133,29 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
-            if(path.extname(plugin).toLowerCase() == '.j
-            if (config.LANG == 'TR' || config.LA
+            if(path.extname(plugin).toLowerCase() == '.js') {
+                require('./plugins/' + plugin);
+            }
+        });
+
+        console.log(
+            chalk.green.bold('✅ spirit bot working!')
+        );
+        await new Promise(r => setTimeout(r, 1100));
+
+        if (config.WORKTYPE == 'public') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+
                 if (conn.user.jid === '@s.whatsapp.net') {
 
-                    await cod, '```🛡️ Blacklist Tespit Edildi!``` \n```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Tespit Edildi!``` \n```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
 
                     await new Promise(r => setTimeout(r, 1700));
 
                     console.log('🛡️ Blacklist Detected 🛡️')
 
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
-  
+                        forID = formation[0].id;
                         await heroku.patch(baseURI + '/formation/' + forID, {
                             body: {
                                 quantity: 0
@@ -159,14 +173,30 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
 
-                    await new Promise(r => setTimeout(r            await heroku.get(bas + '/formation').then(async (formation)                      await heroku.patch(baseURI + '/formation/' + forID, {
-                            })                }
+                    await new Promise(r => setTimeout(r, 1800));
+
+                    console.log('🛡️ Blacklist Detected 🛡️')
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
+                        forID = formation[0].id;
+                        await heroku.patch(baseURI + '/formation/' + forID, {
+                            body: {
+                                quantity: 0
+                            }
+                        });
+                    })
+                }
                 else {
                     await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
                 }
 
             }
-    G == 'AZ') {                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n ```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
+        }
+        else if (config.WORKTYPE == 'private') {
+            if (config.LANG == 'TR' || config.LANG == 'AZ') {
+
+                if (conn.user.jid === '@s.whatsapp.net') {
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n ```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
 
                     await new Promise(r => setTimeout(r, 1800));
 
