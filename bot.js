@@ -133,17 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
-            if(path.extname(plugin).toLowerCase() == '.js') {
-                require('./plugins/' + plugin);
-            }
-        });
-
-        console.log(
-            chalk.green.bold('✅ spirit bot working!')
-        );
-        await new Promise(r => setTimeout(r, 1100));
-
-        if (config.WORKTYPE == 'public') {
+            if(path.extname(plugin).toLowerCase() == '.j
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
                 if (conn.user.jid === '@s.whatsapp.net') {
