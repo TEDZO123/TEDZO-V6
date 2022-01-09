@@ -139,9 +139,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-          
+            chalk.green.bold('✅ spirit bot working!')
         );
-        await new 
+        await new Promise(r => setTimeout(r, 1100));
+
         if (config.WORKTYPE == 'public') {
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
@@ -169,14 +170,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             else {
 
                 if (conn.user.jid === '@s.whatsapp.net') {
-d
-ddd
-                    await new Promise(r => seteTimeout(r, 1800));
+
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
+
+                    await new Promise(r => setTimeout(r, 1800));
 
                     console.log('🛡️ Blacklist Detected 🛡️')
-                    await heroku.dd(baseUddRI + '/formation').then(async (formation) => {
+                    await heroku.get(baseURI + '/formation').then(async (formation) => {
                         forID = formation[0].id;
-                        adwait ddd.patch(baseURI + '/formation/' + forID, {
+                        await heroku.patch(baseURI + '/formation/' + forID, {
                             body: {
                                 quantity: 0
                             }
@@ -184,8 +186,8 @@ ddd
                     })
                 }
                 else {
-                    await conn.sendMessage(cdrddonn.user.jid, '*Bot Started*', MessageType.text);
-                }dd
+                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                }
 
             }
         }
@@ -200,7 +202,7 @@ ddd
 
                     console.log('🛡️ Blacklist Detected 🛡️')
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
-                        forID = sddddd;
+                        forID = formation[0].id;
                         await heroku.patch(baseURI + '/formation/' + forID, {
                             body: {
                                 quantity: 0
@@ -209,13 +211,16 @@ ddd
                     })
                 }
                 else {
-E
-rre            }
+
+                await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                }
+            }
             else {
 
                 if (conn.user.jid === '@s.whatsapp.net') {
 
-W   Ws
+                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
+   
                     await new Promise(r => setTimeout(r, 1800));
 
                     console.log('🛡️ Blacklist Detected 🛡️')
