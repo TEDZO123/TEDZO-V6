@@ -72,9 +72,9 @@
             "MUST_TEXT": "```eathellum oru messagin reply cheyyu```"
         },
         "heroku": {
-            "RESTART_DESC": "\nRestart spirit bot\n",
+            "RESTART_DESC": "\nRestart OXYMORON\n",
             "RESTART_MSG": "```punararambikkunu...```",
-            "SHUTDOWN_DESC": "\nShutdown spirit bot\n",
+            "SHUTDOWN_DESC": "\nShutdown OXYMORON\n",
             "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
             "DYNO_DESC": "heroku dyno kanaan ",
             "DYNO_TOTAL": "```motham Quota```",
@@ -196,7 +196,7 @@
             "NEED_WORDS": "```search cheyende words type cheyyu!```",
             "GETTING_VIDEOS": "```video link kond verunnu...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*spirit bot 🔎 searching...*",
+            "SEARCHING": "*RDX 🔎 searching...*",
             "WIKI_DESC": "Wikipedia yill search cheyyaan.",
             "IMG_DESC": "googlil chithram search cheyaan.",
             "IMG": "chithram upload cheyyunu ```{}``` number ```{} ```..."
@@ -216,14 +216,14 @@
         },
         "updater": {
             "UPDATER_DESC": "update indo enn ariyaan.",
-            "UPDATE": "*spirit bot completely up-to-date💝*",
-            "NEW_UPDATE": "*spirit bot Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
+            "UPDATE": "*ningalude bot up-to-date aan!*",
+            "NEW_UPDATE": "*OXYMORON Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "RDX OXYMORON Updating": "```Updating..🧚‍♂️```",
+            "RDX OXYMORON Updating": "```RDX OXYMORON Updating..🐥```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
-            "UPDATED": "*spirit bot UPDATED✅*",
+            "UPDATED": "* RDX Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
-            "AFTER_UPDATE": "*😎 spirit bot Restarting..*"
+            "AFTER_UPDATE": "*😎 OXYMORON Restarting..*"
         },
         "weather": {
             "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
