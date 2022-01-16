@@ -10,7 +10,7 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/SPlRlT-YT/spirit-bot.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/TEDZO123/spirit-bot.git)
      </div>
 <br>
 <br >
@@ -26,7 +26,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/SPlRlT-YT/spirit-bot
+$ git clone https://github.com/TEDZO123/spirit-bot
 $ cd spirit-bot
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -36,7 +36,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/SPlRlT-YT/spirit-bot
+$ git clone https://github.com/TEDZO123/spirit-bot
 $ cd spirit-bot
 $ chmod +x *
 $ npm i
