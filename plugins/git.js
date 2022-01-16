@@ -9,20 +9,18 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
     var skl = await axios.get("https://i.imgur.com/aO8uCtQ.jpg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*spirit  bot created by Spirit*
-*Creator number : wa.me/18052196558?text=Hi%20spirit%20%20*
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*aslusir created this bot*
 
-*spirit bot group* : https://chat.whatsapp.com/Gxn5g1kJy8BGSMaSqTwV8u
-
-*Githublink (Setup)* :    https://github.com/SPlRlT-YT/spirit-bot
-
-*Audio commads* :   https://github.com/SPlRlT-YT/spirit-bot/tree/master/uploads
-
-*Sticker commads* : https://github.com/SPlRlT-YT/spirit-bot/tree/master/sticker
-
-*My channel* : https://youtube.com/channel/UCBv1Z1zkOmdGeWU2QRdYBnA 
-
-*For More Updates Subscribe The Channel ☝*
+🤖 *Creator number : wa.me/917736835721?text=Hi%20tedzo%20%20*
+🤖 
+🤖 *Git hub        : https://github.com/poodqpotta*
+🤖
+🤖 *WHATSAPP GROUP : https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t
+🤖
+🤖 *Instagram      : https://www.instagram.com/a_s_l_a_m_._x*
+🤖
+🤖 *WEBSITE        : Available soon....
+🤖
 `}) 
 
 }));
