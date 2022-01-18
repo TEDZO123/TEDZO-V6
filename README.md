@@ -1,6 +1,6 @@
-![spirit bot](https://i.imgur.com/aO8uCtQ.jpg?size=1500)
+![TEDZO-V6](https://i.imgur.com/aO8uCtQ.jpg?size=1500)
 
-## [![spirit-bot](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+spirit+bot+WA+Bot+Repo;Created+by+spirit+ser;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![TEDZO-V6](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+spirit+bot+WA+Bot+Repo;Created+by+spirit+ser;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
 
 ## Setup
@@ -10,7 +10,7 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/TEDZO123/spirit-bot.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/TEDZO123/TEDZO-V6.git)
      </div>
 <br>
 <br >
