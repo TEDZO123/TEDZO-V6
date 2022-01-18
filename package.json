@@ -1,8 +1,8 @@
 {
-  "name": "tedzo-Bot",
+  "name": "TEDZO-V6",
   "version": "1.0.0",
   "description": "tedzo whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./spirit/bot.js",
+  "main": "./TEDZO-V6/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
