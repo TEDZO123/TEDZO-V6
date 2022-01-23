@@ -1,14 +1,14 @@
 {
-  "name": "TEDZO-V6",
+  "name": "spirit-Bot",
   "version": "1.0.0",
-  "description": "tedzo whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./TEDZO-V6/bot.js",
+  "description": "spirit whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./spirit/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TEDZO123/TEDZO-V6.git"
+    "url": "git+https://github.com/SPlRlT-YT/spirit-bot.git"
   },
   "keywords": [
     "WhatsApp",
