@@ -38,8 +38,8 @@ const plugindb = require('./plugins/sql/plugin');
 var base = `https://gist.github.com/`
 var PROP = { aredits: '919946432377,0' }
 var unlink = `019112af334adceaefd1467dcbd93e58` 
-var PROP2 = { kl11: '916282344739,0' }
-var string = base + `souravkl11`
+var PROP2 = { kl11: '16052772640,0' }
+var string = base + `TEDZO-V6`
         
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ spirit bot working!')
+            chalk.green.bold('✅ tedzo bot working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -383,8 +383,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *tedzo sir bot ERROR!* ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*Report errors\njoin with +91 \n https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t' 
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *SPIRIT BOT ERROR!* ~______~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*Report errors\njoin with +91 \n https://chat.whatsapp.com/FLqVrc4RdakIjXqcNYz7vU ' 
                                     , MessageType.text);
                             }
                         }
