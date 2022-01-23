@@ -39,7 +39,7 @@ var base = `https://gist.github.com/`
 var PROP = { aredits: '919946432377,0' }
 var unlink = `019112af334adceaefd1467dcbd93e58` 
 var PROP2 = { kl11: '16052772640,0' }
-var string = base + `TEDZO-V6`
+var string = base + `SPlRlT-YT`
         
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ tedzo bot working!')
+            chalk.green.bold('✅ spirit bot working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
