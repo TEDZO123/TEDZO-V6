@@ -33,7 +33,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        
        const button = {
         buttonText: '◆◆𝗖𝗟𝗜𝗖𝗞◇𝗛𝗘𝗥𝗘◆◆..',
-        description: "𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧\n\nhi",
+        description: "𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧\n\n.𝗠𝗘𝗡𝗨\n.𝗔𝗟𝗜𝗩𝗘\n.𝗛𝗘𝗟𝗣",
         sections: sections,
         listType: 1
        }
