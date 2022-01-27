@@ -32,11 +32,8 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        const sections = [{title: "ᴀsʟᴜsᴇʀ ⚡", rows: rows}]
        
        const button = {
-        buttonText: '〇𝗖𝗟𝗜𝗖𝗞▱𝗛𝗘𝗥𝗘〇..',
-        description: "var plk_say = new Date().toLocaleString('HELLO', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-var plk_here = new Date().toLocaleDateString(get_localized_date)
-var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'✿▱▰❀𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥❀▰▱✿",
+        buttonText: '〇𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘〇..',
+        description: "✿▱▰❀𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥❀▰▱✿/n/n/n/n/n/n/n/n/nBY/nTEDZO",
         sections: sections,
         listType: 1
        }
@@ -44,4 +41,3 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
        await message.client.sendMessage(message.jid, button, MessageType.listMessage)
     
     }));
-
