@@ -3,7 +3,7 @@ Licensed under the  GPL-3.0 License;
 Mwonu Husniserinde credits kalayalle
 spirit-bot - SPlRlT-YT
 */
-const Maalutty = require('../events');
+const  = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -16,7 +16,7 @@ var ddd = ggg.toString('utf-8')
 
 let whb = Config.WORKTYPE == 'public' ? false : true
 
-Maalutty.addCommand({pattern: 'owner', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+Maalutty.addCommand({pattern: 'xyz', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
 // send a buttons message!
 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 var plk_here = new Date().toLocaleDateString(get_localized_date)
