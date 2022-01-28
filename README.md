@@ -30,7 +30,7 @@ $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
 $ git clone https://github.com/TEDZO123/spirit-bot
-$ cd spirit-bot
+$ cd tedzo-bot
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -53,15 +53,15 @@ $ node bot.js
 ```
 Due to Whatsapp bot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, spirit-bot executives do not accept responsibility.
-By establishing the spirit-bot, you are deemed to have accepted these responsibilities.
+Absolutely, tedzo-bot executives do not accept responsibility.
+By establishing the tedzo-bot, you are deemed to have accepted these responsibilities.
 ```
 
 ## Developers
   <div align="center">
     
- [![SPlRlT-YT](https://github.com/SPlRlT-YT.png?size=100)](https://github.com/SPlRlT-YT)  
-[](https://github.com/spirit-bot)[spirit ser](https://github.com/SPlRlT-YT) 
+ [![SPlRlT-YT](https://github.com/Tedzo555.png?size=100)](https://github.com/Tedzo555)  
+[](https://github.com/TEDZO123)[aslu ser](https://github.com/Tedzo555) 
   </div>
 
 
