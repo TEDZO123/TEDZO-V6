@@ -1,4 +1,6 @@
-![TEDZO-V6](https://i.imgur.com/GyIH8eC.jpg?size=1900)
+<div align="center">
+<img src="20220130_083059.jpg" alt="tedzo" width="200" />
+
 
 ## [![TEDZO-V6](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+tedzo+bot+WA+Bot+Repo;Created+by+aslu+ser;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
