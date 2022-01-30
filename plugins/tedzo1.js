@@ -19,8 +19,6 @@ var r_text = new Array ();
     
     var i = Math.floor(1*Math.random())
 
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-
     var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 
     var wish = ''
