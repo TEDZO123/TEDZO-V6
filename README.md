@@ -40,7 +40,7 @@ $ node qr.js
 ```js
 SETUP
 $ git clone https://github.com/TEDZO123/spirit-bot
-$ cd spirit-bot
+$ cd TEDZO-V6
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -60,7 +60,7 @@ By establishing the tedzo-bot, you are deemed to have accepted these responsibil
 ## Developers
   <div align="center">
     
- [![SPlRlT-YT](https://github.com/Tedzo555.png?size=100)](https://github.com/Tedzo555)  
+ [![𝑻𝑬𝑫𝒁𝑶](https://github.com/Tedzo555.png?size=100)](https://github.com/Tedzo555)  
 [](https://github.com/TEDZO123)[aslu ser](https://github.com/Tedzo555) 
   </div>
 
