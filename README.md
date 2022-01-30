@@ -15,6 +15,20 @@
 
 [![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/TEDZO123/TEDZO-V6.git)
      </div>
+<p align="center">
+<a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&color=blue"></a>
+</p>
+<p align="center">
+ <a href="https://github.com/TEDZO123"><img title="Author" src="https://img.shields.io/badge/Author-Aslu-blue.svg?style=for-the-badge&logo=github" /></a>  <a href="https://wa.me/917736835721?text=Hello%20ASLu%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Owner-ASLu-blue.svg?style=for-the-badge&logo=whatsapp" /></a>
+<p align="center">
+<a href="https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2thttps://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t"><img title="Author" src="https://img.shields.io/badge/Watsapp-Group-blue.svg?style=for-the-badge&logo=whatsapp" /></a> <a href="https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t"><img title="Author" src="https://img.shields.io/badge/Youtube-AsluSER-blue.svg?style=for-the-badge&logo=youtube" /></a>
+</p>
+
+
+ 
+
+
+
 <br>
 <br >
  
