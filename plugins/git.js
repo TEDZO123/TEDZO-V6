@@ -15,7 +15,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 wa.me/917736835721?text=Hi%20tedzo%20%20*
 🤖 
 🤖 *Git hub*  
-*https://github.com/Tedzo555/TEDZO-V6z*
+*https://github.com/Tedzo-1/tedzo-v6.*
 🤖
 🤖 *WHATSAPP GROUP*
 https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t
