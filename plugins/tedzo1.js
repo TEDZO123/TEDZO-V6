@@ -6,10 +6,42 @@ const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
+const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 const os = require('os');
 var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
 var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
+var r_text = new Array ();
+    
+    
+    r_text[0] = "https://i.ibb.co/BsVW6fM/IMG-20211210-WA0528.jpg";
+    
+    
+    var i = Math.floor(1*Math.random())
+
+    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+
+    var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
+
+    var wish = ''
+     
+    var eva = ''
+
+    var auto_bio = ''
+
+    var language = ''
+
+if (hrs < 10) wish = '*ɢᴏᴏᴅ ᴍʀɴɪɴɢ ʙʀᴏ🌅*'
+if (hrs >= 10 && hrs <= 13) wish = '*ʜᴇʟʟᴏ👋*'
+if (hrs >= 13 && hrs <= 16) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ ʙʀᴏ🌇*'
+if (hrs >= 16 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🏝️*'
+if (hrs >= 19 && hrs <= 24) wish = '*ᴍɪᴅ ɴɪɢʜᴛ🌃*'
+
+if (config.FULLEVA == 'true') eva = 'On'
+if (config.FULLEVA == 'false') eva = 'Off'
+if (config.AUTOBİO == 'true') auto_bio = 'On'
+if (config.AUTOBİO == 'false') auto_bio = 'Off'
+
 
 
 Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
