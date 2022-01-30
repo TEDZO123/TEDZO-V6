@@ -28,7 +28,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        
        const button = {
         buttonText: '◆◆𝗖𝗟𝗜𝗖𝗞◇𝗛𝗘𝗥𝗘◆◆..',
-        description: "𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧\n\n.𝗠𝗘𝗡𝗨\n.𝗔𝗟𝗜𝗩𝗘\n.𝗛𝗘𝗟𝗣",
+        description: "𝗧𝗘𝗗𝗭𝗢 𝗦𝗜𝗥 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧\n\n.𝗠𝗘𝗡𝗨\n.𝗔𝗟𝗜𝗩𝗘\n.𝗛𝗘𝗟𝗣╭──────────────────╯\n│\n│ ᴍᴡᴏɴᴜsᴇ ` + wish + `\n*⌚` + time + `*\n│ ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ꪶtedzo_sirꫂ\n│ ▢ *ʙᴏᴛ * :` + config.BOTSK + `\n│ ▢ *ᴠᴇʀsɪᴏɴ* : 2.0\n│ ▢ *ғᴜʟʟ ᴇᴠᴀ* : ` + eva + `\n│ ▢ *ᴀᴜᴛᴏ ʙɪᴏ* : ` + auto_bio + `\n│ ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│ ▢ *ᴘʀᴇғɪx* : *. , !*\n│\n│╔════╗╔═╗╔══╗╔╗╔╗╔╗\n│║╔╗╔╗║║═╝║╔╗║║║║║║║\n│║║║║║║║═╗║║║╚╝║║╚╝║\n│╚╝╚╝╚╝╚═╝╚╝╚══╝╚══╝\n│  ©ꪶ͢TEDZO_sirꪶ͢│\n╰──────────────────╮",
         sections: sections,
         listType: 1
        }
