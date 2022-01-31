@@ -1,4 +1,4 @@
-const asena = require('../events'); 
+const Asena = require('../events');
 
 const {MessageType} = require('@adiwajshing/baileys');
 
