@@ -2,7 +2,7 @@
 
  */
 
-const Raashii = require('../events');
+const Asena = require('../events');
 
 const config = require('../config');
 
@@ -16,7 +16,7 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
-var rashi_desc = ''
+var Asena_desc = ''
 
 var OFF = ''
 
@@ -24,7 +24,7 @@ var ON = ''
 
 if (config.LANG == 'EN') {
 
-  rashi_desc = 'change Auto bio mode'
+  Asena_desc = 'change Auto bio mode'
 
   OFF = '𝐀𝐮𝐭𝐨 𝐛𝐢𝐨 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐬𝐡𝐮𝐭𝐝𝐨𝐰𝐧𝐞𝐝 \n          𝐩𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 𝐟𝐞𝐰 𝐦𝐢𝐧𝐮𝐭𝐞 🧚‍♀️'
 
@@ -34,7 +34,7 @@ if (config.LANG == 'EN') {
 
 if (config.LANG == 'ML') {
 
-  rashi_desc = 'Auto bio mode മാറ്റാൻ'
+  Asena_desc = 'Auto bio mode മാറ്റാൻ'
 
   OFF = '*AUTO BIO OFF ആക്കി💌*'
 
@@ -42,7 +42,7 @@ if (config.LANG == 'ML') {
 
 }
 
-Raashii.addCommand({ pattern: 'autobio ?(.*)', fromMe: true, desc: rashi_desc, usage: '.autobio on / off' }, (async (message, match) => {
+Asena.addCommand({ pattern: 'autobio ?(.*)', fromMe: true, desc: rashi_desc, usage: '.autobio on / off' }, (async (message, match) => {
 
   if (match[1] == 'off') {
 
