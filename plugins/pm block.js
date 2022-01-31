@@ -1,6 +1,6 @@
 //codded by afnanplk
 
-const asena = require('../events');
+const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
