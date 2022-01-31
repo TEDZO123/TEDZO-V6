@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-recodded by As
-new work type by As
+recodded by afnanplk
+new work type by afnanplk
 */
 
 const Asena = require('../events');
@@ -90,7 +90,7 @@ else if (Config.WORKTYPE == 'public') {
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                    mesaj += '\n 🦋 @' + uye.id.split('@')[0] + 'ㅤ🍁';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
@@ -155,7 +155,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                    mesaj += '\n 🦋 @' + uye.id.split('@')[0] + 'ㅤ🍁';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
