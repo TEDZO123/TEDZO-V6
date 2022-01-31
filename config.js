@@ -49,6 +49,8 @@ module.exports = {
     BOTSK: process.env.BOT_NAME === undefined ? 'ɪͥᴛͭsᷤ ͢ᴍͫᴇͤ�ᴀsʟᴜsɪʀ ʙᴏᴛ࿐' : process.env.BOT_NAME,
     LOGOSK: process.env.ALL_IMG === undefined ? 'https://telegra.ph/file/20efb17e2377f524e7b2c.jpg' : process.env.ALL_IMG,
     SLINK: process.env.SOCIAL_MEDIA === undefined ? 'https://www.instagram.com/a_s_l_a_m_._x' : process.env.SOCIAL_MEDIA,
+    ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
+    ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? '♥️' : process.env.ALIVE_BUTTON
     TAGPLK: process.env.TAG_HEADER === undefined ? '*Attention please 📢*' : process.env.TAG_HEADER,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
