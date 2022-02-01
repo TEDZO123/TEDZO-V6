@@ -1,4 +1,4 @@
-const Trex = require('../events');
+const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
@@ -11,7 +11,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Asena.addCommand({pattern: 'owner', fromMe: true,  deleteCommand: false }, (async (message, match) => {
             
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
        
@@ -51,7 +51,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Asena.addCommand({pattern: 'owner', fromMe: true,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
@@ -89,7 +89,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
   
-  Trex.addrex({pattern: 'bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
+  Asena.addCommand({pattern: 'owner', fromMe: false,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
