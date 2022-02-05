@@ -98,7 +98,7 @@ var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split('
 
     var i = Math.floor(80*Math.random())
 
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+    var respoimage = axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 
