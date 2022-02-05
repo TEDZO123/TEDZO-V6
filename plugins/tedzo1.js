@@ -102,14 +102,6 @@ var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split('
 
     var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 
-    var wish = ''
-     
-    var eva = ''
-
-    var auto_bio = ''
-
-    var language = ''
-
 if (hrs < 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
 if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
 if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
