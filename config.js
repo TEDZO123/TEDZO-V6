@@ -1,5 +1,5 @@
 /* Copyright (C) 2021 KINGS AS
-re-edited by SPlRlT-YT
+re-edited by myr
 */
 
 const { Sequelize } = require('sequelize');
@@ -20,7 +20,8 @@ module.exports = {
     SESSION: process.env.CONNECTION_CODE === undefined ? '' : process.env.CONNECTION_CODE,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
-    AFN: process.env.ALL_CAPTION === undefined ? 'Made By ᴀsʟᴜsᴇʀ ʙᴏᴛ࿐' : process.env.ALL_CAPTION,
+    AFN: process.env.ALL_CAPTION === undefined ? '♡         ❍ㅤ    ⎙ㅤ  ⌲ 
+ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' : process.env.ALL_CAPTION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
