@@ -15,7 +15,7 @@ var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 
 
-Asena.addCommand({pattern: 'sc', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'goc', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 // send a list message!
     const rows = [
         {title: 'Aslᴜ Bᴏᴛ Oᴡɴᴇʀ Nᴜᴍʙᴇʀ', description: "⚙Bᴏᴛ Oᴡɴᴇʀ Nᴜᴍᴇʀ\n\n\n*◁ === Tʜɪs bot Oᴡɴᴇʀ Aslᴜ Sᴇʀ=== ▷*\n\n🎭 *Aslᴜ Bᴏᴛ Bʏ Aslᴜ sᴇʀ *\n 🔮 http://wa.me/+917736835721.\n\n\n\n ", rowId:" rowid1"},
