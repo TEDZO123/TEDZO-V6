@@ -43,7 +43,7 @@ module.exports = {
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     INBO1: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    STICKERP: process.env.AUTOSTICKER === undefined ? true : convertToBool(process.env.AUTOSTICKER),
+    AUTOSTICKER: process.env.AUTOSTICKER === undefined ? true : convertToBool(process.env.AUTOSTICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT: process.env.BOT_NAME === undefined ? '⊢‒‒‒ ⋈ tedzo Sᴇʀ Bᴏᴛ ⋈ ‒‒‒⊣' : process.env.BOT_NAME,
     BOTSK: process.env.BOT_NAME === undefined ? 'tedzo Sᴇʀ Bᴏᴛ' : process.env.BOT_NAME,
